@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to TheFunnel</h1>
+    <br>
+    <h2>Contact Us</h2>
+
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your Email" required>
+        <br>
+        <label for="Contact">Contact No:</label>
+        <input type="tel" id="Contact" maxlenght="10" placeholder="type the number after country code" required> <!--to create a drop down menu for slecting cointry code we need JS-->
+        <br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <label for="dob" >Date of Birth:</label>
+        <input type="date" placeholder="yyyy/mon/day" min="1970-01-01" max="2012-01-01" required>
+        <br>
+        <label for="rating">Rating:</label>
+
+        <input type="radio" name="rating" id="1">
+        <label for="1">1</label>
+
+        <input type="radio" name="rating" id="2">
+        <label for="2">2</label>
+
+        <input type="radio" name="rating" id="3">
+        <label for="3">3</label>
+
+        <input type="radio" name="rating" id="4">
+        <label for="4">4</label>
+
+        <input type="radio" name="rating" id="5">
+        <label for="5">5</label>
+        <br>
+        <label for="message">Enter your message here</label><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type here"></textarea>
+        <br>
+        <input type="submit" value="Submit" onsubmit="myfunction()">
+        <script>
+            function myfunction(){
+                alert("Submitted Successfuly")
+            }
+        </script>
+        <input type="reset" value="Reset"><br>
+        <br>
+        <p><a href="https://www.instagram.com/accounts/login/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" 
+            alt="instagram"
+            width="20px"
+            height="20px">
+        </a>
+        <a href="https://www.linkedin.com/in/vivek-kumar-889936267/">
+            <img src="https://pbs.twimg.com/profile_images/1661161645857710081/6WtDIesg_400x400.png" 
+            alt="LinkedIn"
+            width="20px"
+            height="20px">
+        </a>
+        <a href="https://github.com/thefearlesscoder">
+            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" 
+            alt="GitHub"
+            width="20px"
+            height="20px">
+        </a></p>
+
+    </form>
+</body>
+</html>
