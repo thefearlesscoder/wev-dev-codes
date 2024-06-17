@@ -1,0 +1,123 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed rgb(1,17,160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */   /*isko laga ke effect dekhna */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-info{
+    margin: 20px 5px;
+}
+
+.tour-price{
+    color:#1faa59;
+    font-size: 1.3rem;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn-red{
+    cursor: pointer;
+    border: 1px solid #b4161b;
+    background-color: #b4161b21;
+    border-radius: 10px;
+    margin-top: 1.1rem;
+    /* padding: 10px 80px; */
+    padding: 0.6rem;
+    width: 80%;
+    margin: 1.1rem auto 0;
+    font-weight: bold;
+    font-size: 18px;
+    /* transition: all 0.2s ease; */
+}
+
+.btn-red:hover {
+    background-color: #b4161b;
+    color: white;
+    transition: all 0.2s;
+    margin: auto auto;
+  }
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+    .btn-white {
+        border: none;
+        padding: 10px 80px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 5px;
+      }
+      
+      .btn-white:hover {
+        background-color: gray;
+        color: white;
+      }
