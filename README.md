@@ -65,18 +65,20 @@ npm run start
 # Projects
 
 ## 1. RazorPay Clone
-
 [Visit Here](https://razorpay-thefunnel.netlify.app/)
-
 
 ## 2. Password Generator
 [Visit Here](https://thefearlesscoder.github.io/Password-Generator/)
+
 ## 3. Weather App
 [Visit Here](https://thefearlesscoder.github.io/Weather-App/)
+
 ## 4. Plan with Vivek
-[Visit Here]()
+[Visit Here](https://plan-with-vivek-reactapp.netlify.app/)
+
 ## 5. Top-Courses
-[Visit Here]()
+[Visit Here](https://top-courses-thefearlesscoder.netlify.app/)
+
 ## 6. Testimonial Slider
-[Visit Here]()
+[Visit Here](https://testomonial-slider-app.netlify.app/)
 
