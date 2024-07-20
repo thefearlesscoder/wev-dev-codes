@@ -1,0 +1,30 @@
+
+.bars {
+   width: 50.4px;
+   height: 67.2px;
+   --c: linear-gradient(#474bff  0 0);
+   background: var(--c) 0%   100%,
+        var(--c) 50%  100%,
+        var(--c) 100% 100%;
+   background-size: 10.1px 65%;
+   background-repeat: no-repeat;
+   animation: bars-1hcj36 1s infinite linear;
+}
+
+@keyframes bars-1hcj36 {
+   20% {
+      background-position: 0% 50% ,50% 100%,100% 100%;
+   }
+
+   40% {
+      background-position: 0% 0%  ,50% 50% ,100% 100%;
+   }
+
+   60% {
+      background-position: 0% 100%,50% 0%  ,100% 50%;
+   }
+
+   80% {
+      background-position: 0% 100%,50% 100%,100% 0%;
+   }
+}
