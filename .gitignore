@@ -2,3 +2,5 @@
 #If you want to execute the web applications on local system you need to install the node modules.
 
 node_modules/
+.gitconfig
+.npmrc
