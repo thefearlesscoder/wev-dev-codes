@@ -9,8 +9,8 @@ exports.auth = (req, res, next) => {
   try {
     //extract jwt token-- requiest ki body mein or header or cookies mein pada hai
     //request ki body se token ko extract krna hai
-    const token = req.body.token;
-
+    const token = req.body.token || req.cookie.token || req.header["authorization"].replace("Bearer ",""); //header mein
+    
     if (!token) {
       return res.status(401).json({
         success: false,
