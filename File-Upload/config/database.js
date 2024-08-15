@@ -3,10 +3,10 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 exports.connect = async () => {
-    mongoose.connect(process.env.MONGODB_URI, {
+    mongoose.connect(process.env.MONGODB_URL, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        useCreateIndex: true,
+        // useCreateIndex: true,
     })
     .then(console.log('Connected to MongoDB'))
     .catch((error) => {
